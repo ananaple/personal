@@ -1,0 +1,82 @@
+* {
+    margin: 0
+}
+
+html, body {
+    height: 100%
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 20px
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 201
+}
+
+.bgSection {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.betweenSection {
+    height: 40%;
+}
+
+.bgSectionOne {
+    background-image: url(../images/1-1.jpg)
+}
+
+.bgSectionTwo {
+        background-image: url(../images/2.jpg)
+
+}
+
+.row {height: 100%}
+
+.container-fluid {height: 100%}
+
+.textFly {
+    list-style: none;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    font-size: 3em;
+    -webkit-transform: translateX(-30%) translateY(-50%);
+            transform: translateX(-30%) translateY(-50%)
+}
+
+.textFly li {
+    display: inline-block;
+    color: white;
+    opacity: 1;
+    -webkit-transition: all 4s ease;
+    transition: all 4s ease
+}
+
+.textFly.hidden li { opacity: 0 }
+
+.textFly.hidden li:nth-child(1) {-webkit-transform: translateX(-200px) translateY(-200px);transform: translateX(-200px) translateY(-200px)}
+.textFly.hidden li:nth-child(2) {-webkit-transform: translateX(100px) translateY(-10px);transform: translateX(100px) translateY(-10px)}
+.textFly.hidden li:nth-child(3) {-webkit-transform: translateX(140px) translateY(180px);transform: translateX(140px) translateY(180px)}
+.textFly.hidden li:nth-child(4) {-webkit-transform: translateX(-200px) translateY(280px);transform: translateX(-200px) translateY(280px)}
+.textFly.hidden li:nth-child(5) {-webkit-transform: translateX(-155px) translateY(-25px);transform: translateX(-155px) translateY(-25px)}
+.textFly.hidden li:nth-child(6) {-webkit-transform: translateX(70px) translateY(45px);transform: translateX(70px) translateY(45px)}
+.textFly.hidden li:nth-child(7) {-webkit-transform: translateX(-80px) translateY(80px);transform: translateX(-80px) translateY(80px)}
+.textFly.hidden li:nth-child(8) {-webkit-transform: translateX(-99px) translateY(145px);transform: translateX(-99px) translateY(145px)}
+.textFly.hidden li:nth-child(9) {-webkit-transform: translateX(300px) translateY(-40px);transform: translateX(-200px) translateY(-40px)}
+.textFly.hidden li:nth-child(10) {-webkit-transform: translateX(230px) translateY(110px);transform: translateX(-200px) translateY(110px)}
+.textFly.hidden li:nth-child(11) {-webkit-transform: translateX(-300px) translateY(30px);transform: translateX(-200px) translateY(30px)}
+.textFly.hidden li:nth-child(12) {-webkit-transform: translateX(20px) translateY(-5px);transform: translateX(20px) translateY(-5px)}
+.textFly.hidden li:nth-child(13) {-webkit-transform: translateX(-86px) translateY(49px);transform: translateX(-86px) translateY(49px)}
+.textFly.hidden li:nth-child(14) {-webkit-transform: translateX(-20px) translateY(-33px);transform: translateX(-20px) translateY(-33px)}
+.textFly.hidden li:nth-child(15) {-webkit-transform: translateX(100px) translateY(-150px);transform: translateX(100px) translateY(-150px)}
+.textFly.hidden li:nth-child(16) {-webkit-transform: translateX(-200px) translateY(180px);transform: translateX(-200px) translateY(180px)}
+.textFly.hidden li:nth-child(17) {-webkit-transform: translateX(-50px) translateY(-170px);transform: translateX(-50px) translateY(-170px)}
