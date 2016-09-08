@@ -43,26 +43,28 @@ nav {
 
 }
 
-.row {height: 100%}
 
-.container-fluid {height: 100%}
 
 .textFly {
     list-style: none;
     position: absolute;
-    left: 60%;
-    top: 30%;
+    color: #123;
     font-size: 3em;
+    font-weight: 800;
+    font-family: Helvetica;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    left: 55%;
+    top: 30%;
+
     -webkit-transform: translateX(-30%) translateY(-50%);
             transform: translateX(-30%) translateY(-50%)
 }
 
 .textFly li {
     display: inline-block;
-    color: white;
     opacity: 1;
-    -webkit-transition: all 4s ease;
-    transition: all 4s ease
+    -webkit-transition: all 3s ease;
+    transition: all 3s ease
 }
 
 .textFly.hidden li { opacity: 0 }
@@ -74,20 +76,71 @@ nav {
 .textFly.hidden li:nth-child(5) {-webkit-transform: translateX(-155px) translateY(-25px);transform: translateX(-155px) translateY(-25px)}
 .textFly.hidden li:nth-child(6) {-webkit-transform: translateX(70px) translateY(45px);transform: translateX(70px) translateY(45px)}
 .textFly.hidden li:nth-child(7) {-webkit-transform: translateX(-80px) translateY(80px);transform: translateX(-80px) translateY(80px)}
-.textFly.hidden li:nth-child(8) {-webkit-transform: translateX(-99px) translateY(145px);transform: translateX(-99px) translateY(145px)}
-.textFly.hidden li:nth-child(9) {-webkit-transform: translateX(300px) translateY(-40px);transform: translateX(-200px) translateY(-40px)}
-.textFly.hidden li:nth-child(10) {-webkit-transform: translateX(230px) translateY(110px);transform: translateX(-200px) translateY(110px)}
-.textFly.hidden li:nth-child(11) {-webkit-transform: translateX(-300px) translateY(30px);transform: translateX(-200px) translateY(30px)}
-.textFly.hidden li:nth-child(12) {-webkit-transform: translateX(20px) translateY(-5px);transform: translateX(20px) translateY(-5px)}
-.textFly.hidden li:nth-child(13) {-webkit-transform: translateX(-86px) translateY(49px);transform: translateX(-86px) translateY(49px)}
-.textFly.hidden li:nth-child(14) {-webkit-transform: translateX(-20px) translateY(-33px);transform: translateX(-20px) translateY(-33px)}
-.textFly.hidden li:nth-child(15) {-webkit-transform: translateX(100px) translateY(-150px);transform: translateX(100px) translateY(-150px)}
-.textFly.hidden li:nth-child(16) {-webkit-transform: translateX(-200px) translateY(180px);transform: translateX(-200px) translateY(180px)}
-.textFly.hidden li:nth-child(17) {-webkit-transform: translateX(-50px) translateY(-170px);transform: translateX(-50px) translateY(-170px)}
-.textFly.hidden li:nth-child(17) {-webkit-transform: translateX(470px) translateY(-570px);transform: translateX(470px) translateY(-570px)}
+.textFly.hidden li:nth-child(8) {-webkit-transform: translateX(-199px) translateY(75px);transform: translateX(-99px) translateY(75px)}
+.textFly.hidden li:nth-child(9) {-webkit-transform: translateX(300px) translateY(-40px);transform: translateX(300px) translateY(-40px)}
+.textFly.hidden li:nth-child(10) {-webkit-transform: translateX(430px) translateY(-110px);transform: translateX(430px) translateY(-110px)}
+
 
 
 .trainee {
-    left: 60%;
-    top: 40%
+    position: absolute;
+  font-family: "Open Sans",  Impact;
+  text-align:center;
+  font-size:3em;
+  color:#fff;
+  letter-spacing: -4px;
+  font-weight:400;
+  font-style: italic;
+  text-transform:uppercase;
+  animation:blur 4s ease-in-out;
+  animation-delay: 1s;
+  transition-delay: 1s;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+   -webkit-transform: translateX(10%) translateY(40%);
+            transform: translateX(10%) translateY(40%);
+            left: 50%;
+    top: 35%;
+    opacity: 1;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+
+
+.lotus {
+    position: relative;
+
+    
+}
+
+#lotus {
+ 
+position:fixed;
+bottom: 200;
+left:10;
+width:50px;
+height:50px;
+background:#ccc;
+z-index:9999;
 }

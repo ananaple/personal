@@ -2,6 +2,12 @@ $(function() {
     
     setTimeout(function() {
         $('.textFly').removeClass('hidden');
-    }, 800)
+    }, 900)
+    
+    
         
 }) ()
+
+
+
+ document.getElementByName("img").style.backgroundPosition = "200px 40px";
