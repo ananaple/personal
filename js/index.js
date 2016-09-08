@@ -10,4 +10,7 @@ $(function() {
 
 
 
- document.getElementByName("img").style.backgroundPosition = "200px 40px";
+
+ 
+
+
