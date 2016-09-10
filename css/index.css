@@ -48,7 +48,7 @@ z-index: 2;
 
 #lotus {
 
-background-image: url(/images/k-foo.png);
+background-image: url(../images/k-foo.png);
 background-repeat: no-repeat;
 background-position: 55% 40%;
 
@@ -94,18 +94,11 @@ background-position: 55% 40%;
 
 .textFly.hidden li { opacity: 0 }
 
-.textFly.hidden li:nth-child(1) {-webkit-transform: translateX(-200px) translateY(-200px);transform: translateX(-200px) translateY(-200px)}
+.textFly.hidden li:nth-child(1) {-webkit-transform: translateX(-350px) translateY(200px);transform: translateX(-350px) translateY(200px)}
 .textFly.hidden li:nth-child(2) {-webkit-transform: translateX(100px) translateY(-10px);transform: translateX(100px) translateY(-10px)}
 .textFly.hidden li:nth-child(3) {-webkit-transform: translateX(140px) translateY(180px);transform: translateX(140px) translateY(180px)}
 .textFly.hidden li:nth-child(4) {-webkit-transform: translateX(-200px) translateY(280px);transform: translateX(-200px) translateY(280px)}
 .textFly.hidden li:nth-child(5) {-webkit-transform: translateX(-155px) translateY(-25px);transform: translateX(-155px) translateY(-25px)}
-.textFly.hidden li:nth-child(6) {-webkit-transform: translateX(70px) translateY(45px);transform: translateX(70px) translateY(45px)}
-.textFly.hidden li:nth-child(7) {-webkit-transform: translateX(-80px) translateY(80px);transform: translateX(-80px) translateY(80px)}
-.textFly.hidden li:nth-child(8) {-webkit-transform: translateX(-199px) translateY(75px);transform: translateX(-99px) translateY(75px)}
-.textFly.hidden li:nth-child(9) {-webkit-transform: translateX(300px) translateY(-40px);transform: translateX(300px) translateY(-40px)}
-.textFly.hidden li:nth-child(10) {-webkit-transform: translateX(430px) translateY(-110px);transform: translateX(430px) translateY(-110px)}
-
-
 
 .trainee {
     position: absolute;
