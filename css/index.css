@@ -27,30 +27,33 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
+ 
+    background-position:center;
 }
 
 
 .betweenSection {
     height: 40%;
-    background: transparent;
+    background: #333;
 
 }
 
 
-.footer {
-
+.kimono {
 bottom: 0;
 position: absolute;
 height: 40%;
-width: 100%;
-z-index: 2;
+width: 30%;
+    
 }
 
 #lotus {
 
 background-image: url(../images/k-foo.png);
 background-repeat: no-repeat;
-background-position: 55% 40%;
+background-size: contain;
+display: none
 
 }
     
