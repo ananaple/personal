@@ -39,17 +39,31 @@ nav {
 
 }
 
+#About {
+    height: 40%;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 50%;
+    position: relative;
+    border-radius: 100px;
+    box-shadow: 0 0 50px 10px #3290CC;
+    
+}
 
-.kimono {
+
+#SuitMe {
+    right:300px;
+    top: 400px;
+    display: none;
+    
+}
+
+
+#lotus {
 bottom: 0;
 position: absolute;
 height: 40%;
 width: 30%;
-    
-}
-
-#lotus {
-
 background-image: url(../images/k-foo.png);
 background-repeat: no-repeat;
 background-size: contain;
@@ -62,7 +76,8 @@ display: none
 
 
 .bgSectionOne {
-    background-image: url(../images/1-1.jpg)
+    background-image: url(../images/1-1.jpg);
+    height: 200%;
 }
 
 .bgSectionTwo {
@@ -91,8 +106,8 @@ display: none
 .textFly li {
     display: inline-block;
     opacity: 1;
-    -webkit-transition: all 3s ease;
-    transition: all 3s ease
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease
 }
 
 .textFly.hidden li { opacity: 0 }
@@ -113,7 +128,7 @@ display: none
   font-weight:400;
   font-style: italic;
   text-transform:uppercase;
-  animation:blur 4s ease-in-out;
+  animation:blur 3s ease-in-out;
   animation-delay: 1s;
   transition-delay: 1s;
   text-shadow:0px 0px 5px #fff,
