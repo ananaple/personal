@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    max-width: 1920px;
-}
+
 
 html, body {
     height: 100%;
@@ -16,11 +13,40 @@ h1, h2, h3, h4, h5, h6, p {
 nav {
     position: fixed;
     width: 100%;
-    max-width: 1920px;
-    height: 80px;
-    background-color: rgba(0,0,0,0.4);
-    z-index: 201
+    top: 0;
+    padding: 30px 0;
+    background-color: #555;
+    text-align: center;
+    transition: all 0.5s ease;
+    z-index: 1000000000;
 }
+
+nav.hidden {
+    transform: translate3d(0,-100%,0);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+nav ul li:last-child {
+    margin-right: 0px;
+}
+nav ul li:first-child {
+    text-align: left;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Areal, sans-serif;
+    font-size: 1.5em;
+}
+
+    
 
 .bgSection {
     height: 100%;
@@ -45,29 +71,37 @@ nav {
     margin-right: 40px;
     top: 50%;
     position: relative;
-    border-radius: 100px;
-    box-shadow: 0 0 50px 10px #3290CC;
+    border-radius: 50px;
+    box-shadow: 0 0 80px 3px RGBA(74, 143, 210, 0.91);
     
+}
+
+#tabs {
+    height:100%;
+    border-radius: 20px;
 }
 
 
 #SuitMe {
-    right:300px;
-    top: 400px;
-    display: none;
-    
+bottom: 16%;
+left: 35%;
+display: none;
+position: absolute;
+height: 70%;
+width: 60%;
 }
 
 
+
 #lotus {
-bottom: 0;
+bottom: 10%;
 position: absolute;
 height: 40%;
 width: 30%;
 background-image: url(../images/k-foo.png);
 background-repeat: no-repeat;
 background-size: contain;
-display: none
+display: none;
 
 }
     
@@ -161,8 +195,5 @@ display: none
       0px -10px 100px #7B96B8,
       0px -10px 100px #7B96B8;}
 }
-
-
-
 
 
