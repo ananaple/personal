@@ -6,9 +6,10 @@
         <link rel="stylesheet" href="css/reset.css" type="text/css" />
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/mint-choc/jquery-ui.css">
-
+        <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
         <link rel="stylesheet" href="css/index.css" type="text/css" />
         <title>Oleg Kuchma personal website</title>
     </head>
@@ -16,9 +17,9 @@
     <body>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#between">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="go">Home</a></li>
+                    <li><a href="#tabs" class="go">About</a></li>
+                    <li><a href="#cont" class="go">Contact</a></li>
                 </ul>
             </nav>   
                 <div class="bgSection bgSectionOne" data-type="background" data-speed="20">
@@ -37,15 +38,60 @@
   <ul>
     <li><a href="#tabs-1">About me</a></li>
     <li><a href="#tabs-2">Sample</a></li>
-    <li><a href="#tabs-3">Useful</a></li>
   </ul>
   <div id="tabs-1">
-    <span>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</span>
-  </div>
+
+      <div class="column">
+          <div>
+                              <h3>Education:</h3>
+            <ul>
+                <li><p>2006 - 2012 -------------</p><br><h2>Lviv Polytechnic National University</h2><br>Institute of computer technologies and automatics<br>Qualification: Specialized computer systems engineer</li>
+                <br>                <br>                <br>
+                <li>
+                    <p>15.09 - 13.10.2016 -------</p><br><h2>SoftServe.academy</h2><br>HTML5/CSS3/JS basics courses<br>
+                    Qualification: Web developer intern
+                </li>
+            </ul>
+            </div>
+            <div>
+                <table width="100%" cellspacing="0" cellpadding="5"> 
+                <tr>
+                    <td width="200" valign="top">
+                <h3>Skills:</h3>-----------<br><br><br>
+                <h2>Technical:</h2><br>
+                <p>HTML5\Css3</p>
+                <p>JS basics</p>
+                <p>JQuery\Bootstrap3</p>
+                <p>DOM Manipulation</p>
+                    </td>
+                    <td>
+                        <br><br><br><br><br>
+                        <h2>Soft:</h2><br>
+                        <p>Adaptability</p>
+                        <p>Teamwork</p>
+                        <p>Problem solving</p>
+                        <p>Responsible</p>
+                        
+                    </td>
+                 </tr>
+                </table>
+            </div>
+            <div><br><br><br>
+                <img src="images/small.jpg" style="height: 50%; border-radius: 30px; float: left;margin-right:20px">
+                <br><br><p>How do you think, what the main difference wetween design in arts and webdesign ?..</p><br><nr><br></nr><h2>is meant to be functional!</h2>
+                <hr>
+            </div>
+            
+          </div>  
+ </div>
+  
   <div id="tabs-2">
-    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-  </div>
-  <div id="tabs-3">
+      <h3>My personal site with Bootstrap3</h3>
+      <a href="https://ananaple.github.io/personal-bootstrap/">
+          <div style="width: 500px; height:400px">
+          <img style="width: 90%;" src="images/sample.jpg" alt="" >
+          </div>
+      </a>
     
   </div>
 </div>
@@ -55,16 +101,74 @@
                 
                 <div class="betweenSection" id="between">
                     
-                </div>
-                
-                <div class="bgSection bgSectionTwo">
-                    <div id="SuitMe"><p class="trainee">Wear me</p></div>
-                    <div id="lotus" class="ui-widget ui-corner-all"> 
-                    </div>
                     
-                </div>
+                    
+                    
+<div id="main">
+<h6>My Latest Projects</h6>
+<a class="arrow prev">Prev</a> 
+<a class="arrow next">Next</a>
+<ul id="carousel">
+<li><img src="assets/img/sites/s8.jpg" alt="Media Temple" /></li>
+<li><img src="assets/img/sites/s9.jpg" alt="Shutterstock" /></li>
+<li><img src="assets/img/sites/s10.jpg" alt="Pagelines" /></li>
+<li><img src="assets/img/sites/s11.jpg" alt="Themefuse" /></li>
+<li class="visible"><img src="assets/img/sites/s1.jpg" alt="RapidXHTML" /></li>
+<li class="visible"><img src="assets/img/sites/s2.jpg" alt="IM Creator" /></li>
+<li class="visible"><img src="assets/img/sites/s3.jpg" alt="Email on Acid" /></li>
+<li><img src="assets/img/sites/s4.jpg" alt="Template SOLD" /></li>
+<li><img src="assets/img/sites/s5.jpg" alt="Linux Cloud VPS" /></li>
+<li><img src="assets/img/sites/s6.jpg" alt="Bill grid" /></li>
+<li><img src="assets/img/sites/s7.jpg" alt="MaxCDN" /></li>
+</ul>
+</div>
+</div>
+                
+                
+               
+        <div class="bgSection bgSectionTwo" id="cont">
+            
+            
+            <div id="SuitMe" class="formToRight hidden">
+                <!--<p class="trainee">Wear me</p>-->
+            
+             
+             <header>SEND EMAIL</header>
+               <form id="form" class="topBefore" action="https://formspree.io/rage.as.sage@gmail.com" method="POST">
+         		  <input id="name" type="text" placeholder="NAME" name="name">
+            	  <input id="email" type="text" placeholder="E-MAIL" name="_replyto">
+            	  <textarea id="message" type="text" placeholder="MESSAGE" name="message"></textarea>
+                  <input id="submit" type="submit" value="Send">
+               </form>
+               </div>
+           <div class="contacts formToRight">
+               <header>GET IN TOUCH</header>
+               <br><br><br>
+               <h2>EMAIL</h2><br>
+               <h4>Rage.as.sage@gmail.com</h4>
+               <hr>
+               <h2>PHONE</h2><br>
+              <h4> +3(093) 663 9426</h4>
+              
+               <hr>
+               
+               
+               
+               
+               
+           </div>
+            
+                    <p class="trainee2">Put it on me</p>
+            
+            <div id="lotus" class="lotussmall" class="ui-widget ui-corner-all"> </div>
+        </div>
+                    
+                
+                
+                
 <script src="//code.jquery.com/jquery-1.12.4.js"></script>
   <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <script src="assets/js/script.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
